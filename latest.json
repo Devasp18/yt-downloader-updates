@@ -1,4 +1,31 @@
 {
+  "app_name": "YT Video Downloader",
   "version": "1.0.0",
-  "exe_url": "https://github.com/Devasp18/yt-downloader-updates/releases/download/v1.0.0/YTVideoDownloader.exe"
+  "release_date": "2025-01-07",
+
+  "mandatory": false,
+
+  "download": {
+    "type": "msi",
+    "url": "https://github.com/Devasp18/YT_Downloader/releases/download/v1.0.0/YTVideoDownloader.msi",
+    "size_mb": 28
+  },
+
+  "changelog": [
+    "Initial stable release",
+    "Download YouTube videos (420p / 720p / 1080p)",
+    "High-quality MP3 audio-only downloads",
+    "Playlist downloads with auto-folder structure",
+    "Auto-pause & resume on internet disconnect",
+    "Built-in app auto-update system",
+    "Silent yt-dlp backend auto-updates",
+    "Modern dark UI with ttkbootstrap"
+  ],
+
+  "min_supported_version": "1.0.0",
+
+  "checksum": {
+    "type": "sha256",
+    "value": ""
+  }
 }
